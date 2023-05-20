@@ -5,30 +5,26 @@
         </footer>
     </div>
 </body>
+
 #background {
     height: 725px;
 }
 
 body {
-    background-color: #fcfbfb; 
+    background-color: #6a9292; 
 }
 
 header {
-    background-color:rgba(20,30,13, .7);
+    background-color:rgba(109, 121, 101, 0.7);
 }
 nav a:hover {
-    background-color: black;
+    background-color: rgb(95, 93, 126);
 }
 
 nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
+    background-color: rgb(90, 90, 130);
+    color: #a3a8d9;
 }   
-
-nav a:hover {
-    background-color: black;
-    color: #d9c2a3;
-}    
 
 .icon {
     width: 80px;
@@ -36,7 +32,7 @@ nav a:hover {
 
 nav a {
     text-align: center;
-    color: #fcfbfb;
+    color: #3e3e7a;
     text-decoration: none;
 }    
 
