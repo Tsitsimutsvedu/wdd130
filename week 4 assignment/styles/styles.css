@@ -1,0 +1,33 @@
+body {
+    background-color:#FCA6C9 ;
+    margin: auto;
+    width: 50%
+}
+
+h1 {
+    color:white;
+}
+
+h1:hover {
+    color: black;
+}
+
+ol {
+    font-weight: bold;
+}
+
+q {
+    font-size: 21px;
+}
+
+img {
+    height: 30% ;
+    width: 30%;
+    margin: auto;
+    width: 50%
+}
+
+.white-text {
+    color:white;
+}
+
