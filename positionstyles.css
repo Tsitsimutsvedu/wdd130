@@ -83,7 +83,7 @@
     width: 100%; 
     height: 100px; 
     background-color: red; 
-    grid-column: 1/3;
+    grid-column: 1 / 3;
   } 
   .green3 {
     width: 100%; 
@@ -170,26 +170,41 @@
   /* Activity 6 styles */ 
   .content6 {
     /* This is the parent of the activity 6 boxes. */
+    position: relative;
+  height: 400px;
+  padding-bottom: 50px;
   }
   .red6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: red; 
+    width: 400px; 
+    height: 200px; 
+    background-color: red;
+    position: absolute;
+    top: 0;
+    left: 0; 
   } 
   .green6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: green; 
+    width: 200px; 
+    height: 200px; 
+    background-color: green;
+    position: absolute;
+    top: 400px;
+    left: 0px; 
   } 
   .yellow6 {
-    width: 100px; 
-    height: 100px; 
-    background-color: gold; 
+    width: 200px; 
+    height: 400px; 
+    background-color: gold;
+    position: absolute;
+    top: 200px;
+    left: 400px; 
   } 
   .blue6 {
-    width: 100px; 
-    height: 100px; 
+    width: 400px; 
+    height: 400px; 
     background-color: blue; 
+    position: absolute;
+    top: 100px;
+    left: 100px;
   } 
   
   
