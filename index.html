@@ -11,10 +11,25 @@
   <body>
     <div id="content">
       <header>
+        
+    header {
+      display: grid;
+      grid-template-columns: 150px auto;
+      }
         <a id="logo_link" href="index.html">
           <img class="logo" src="images/logo.png" alt="Dry Oar Logo" />
+          
+          #logo_link {
+            padding-top: 5px;
+            justify-self: center;
+            align-self: center;
+          }
         </a>
         <nav>
+          nav {
+            display: flex;
+            justify-content: space-around;
+        }
           <a href="index.html"> Home</a>
           <a href="#">Page 2</a>
           <a href="Site-plan-rafting.html">Site Plan</a>
@@ -23,12 +38,30 @@
       </header>
 
       <div id="hero">
+        #hero {
+          display: grid;
+          grid-template-columns: 1fr 3fr 1fr;
+        } 
+        #hero {
+          display: grid;
+          grid-template-columns: 1fr 3fr 1fr;
+          margin-top: -100px; 
+      }
         <div id="hero-box">
+          #hero-box {
+            grid-column: 1/4;
+            grid-row: 1/3;
+          }
+          #hero-box {
+            grid-column: 1/4;
+            grid-row: 1/3;
+            z-index: -1;
+          }
           <img
             id="hero-img"
             src="images/hero.png"
             alt="People enjoying rafting"
-          />
+            >/
         </div>
       </div>
 
@@ -37,6 +70,18 @@
         <h4>Make Memories with Dry oar</h4>
         <div class="button-box">
           <a class="book" href="contactus.html">Book Now</a>
+          hero-msg{ 
+            grid-column: 2/3;
+            grid-row: 1/2;
+          } 
+          #hero-msg h4 {
+            color: white;
+          }
+          #hero-msg {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            margin-top: 100px;
+        }
         </div>
       </section>
 
@@ -51,6 +96,9 @@
             class="card-img"
             src="images/camping.jpg"
             alt="tent in mountains"
+            .card-img {
+              width: 100%
+            }
           />
           <img class="icon" src="images/fire_icon.png" alt="fire icon" />
           <h2>Camping</h2>
@@ -67,6 +115,9 @@
           class="mountains"
           src="images/mountains.jpg"
           alt="Misty mountains"
+          .mountains {
+            width: 100%
+          }
         />
         <section class="msg">
           <h2>More Than Just The Thrill</h2>
