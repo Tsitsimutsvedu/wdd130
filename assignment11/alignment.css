@@ -1,0 +1,32 @@
+section {
+    width: 50%;
+    border: 1px solid;
+  }
+  
+  .block1 {
+    align-items: left;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
+
+  .block2 {
+    align-items: center;
+    margin-right: 0 auto;
+    margin-left: auto;
+    width: 50%;
+  }
+
+  .block3 {
+    align-items: right;
+    margin-left: auto;
+    margin-right: 0 auto;
+    width: 50%;
+  }
+
+  .block4 {
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+  }
